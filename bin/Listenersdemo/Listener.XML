@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">  
+<suite name="ListnerAito" >
+  <test name="listen"> 
+  <parameter name="Browser" value="Chrome"/>
+  <parameter name = "URL" value = "https://demoqa.com/"/>
+  
+  
+    <classes>  
+      <class name="Listenersdemo.demoqatest"/> 
+       
+      
+    </classes> 
+    
+    
+     
+  </test> <!-- Test -->  
+</suite> <!-- Suite -->  

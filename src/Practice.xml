@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">  
+<suite name="LearnAutomation" thread-count="3" parallel="methods">
+  <test name="Loginenv"> 
+  <parameter name="Browser" value="Chrome"/>
+  <parameter name = "URL" value = "https://login.yahoo.com/"/>
+  <parameter name = "username" value = "pooja.kashyap@yahoo.in"/>
+  
+    <classes>  
+      <class name="XMLdemo.xmldemo1"/> 
+       
+      <class name="XMLdemo.xmldemo2"/>
+      <class name="XMLdemo.XMLdemo3"/>
+    </classes> 
+    
+    
+     
+  </test> <!-- Test -->  
+</suite> <!-- Suite -->  
