@@ -94,6 +94,7 @@ public void NavigationURL() throws Exception
 	String titlenew = driver.getTitle();
 	
 	System.out.println("Title of page is "+titlenew);
+	System.out.println("This is demo GIT");
 }
 @AfterMethod
 
